@@ -13,7 +13,7 @@ import java.util.Set;
 
 @Repository
 public class PessoaDAO {
-    public static final Map<Long, Pessoa> pessoaMap = new HashMap<Long, Pessoa>();
+    private static final Map<Long, Pessoa> pessoaMap = new HashMap<Long, Pessoa>();
 
     static {
         initPessoas();
