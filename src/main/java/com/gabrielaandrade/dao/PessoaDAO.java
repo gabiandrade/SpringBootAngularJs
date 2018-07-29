@@ -62,8 +62,8 @@ public class PessoaDAO {
         return pessoa;
     }
 
-    public void deleteEmployee(Long empId) {
-        pessoaMap.remove(empId);
+    public void deletePessoa(Long id) {
+        pessoaMap.remove(id);
     }
 
     public List<Pessoa> getAllPessoas() {
